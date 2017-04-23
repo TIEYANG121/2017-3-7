@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	/*块元素居中*/
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		.clear{
+			clear:both;
+		}
+		.header{
+			background-color: #eee;
+			width:1000px;
+			height:100px;
+			margin:0 auto;
+		}
+
+		.header .logo{
+			float:left;
+		}
+		.header .search{
+			float:right;
+		}
+		
+		.header .nav li{
+			list-style: none;
+			float: left;
+			width:80px;
+			height:30px;
+			border:1px solid red;
+			text-align: center;
+			line-height: 30px;
+		}
+		
+
+		.header .nav a{
+			text-decoration: none;
+			display: block;
+		
+		}
+
+		.header .nav a:hover{
+			background-color: #00f;
+			color:#fff;
+		}
+		
+
+		.banner{
+			background-color: #0f0;
+			height:200px;
+			width:1000px;
+			margin:0 auto;
+		}
+		.container{
+			background-color: #00f;
+			height:500px;
+			width:1000px;
+			margin:0 auto;
+		}
+		.footer{
+			background-color: #ff0;
+			height:80px;
+			width:1000px;
+			margin:0 auto;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 class="logo">logo</h1>
+		<h1 class="search">search</h1>
+		<div class="clear"></div>
+		<ul class="nav">
+			<li><a href="">链接</a></li>
+			<li><a href="">链接</a></li>
+			<li><a href="">链接</a></li>
+			<li><a href="">链接</a></li>
+			<li><a href="">链接</a></li>
+		</ul>
+	</div>
+	<div class="banner"></div>
+	<div class="container">
+		<div class="c-t">
+			<div class="c-t-l">
+				<h3>新闻中心</h3>
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+				</ul>
+			</div>
+		</div>
+		<div class="c-c"></div>
+		<div class="c-b"></div>
+	</div>
+	<div class="footer"></div>
+</body>
+</html>
